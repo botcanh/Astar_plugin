@@ -52,7 +52,7 @@ namespace astar_planner_plugin
         vector<int> runAstarOnGrid(int startGridSquare, int goalGridSquare);
         vector<int> findPath(int startGridSquare, int goalGridSquare, float gScore[]);
         vector<int> constructPath(int startGridSquare, int goalGridSquare, float gScore[]);
-        void addNeighborGridSquareToOpenList(multiset<GridSquare> &OPL, int neighborGridSquare, int goalGridSquare, float gScore[]);
+        void addNeighborGridSquareToOpenList(multiset<GridSquare> &openSquareList, int neighborGridSquare, int goalGridSquare, float gScore[]);
         vector<int> findFreeNeighborGridSquare(int currentSquare);
         bool isStartAndGoalValid(int startGridSquare, int goalGridSquare);
         float getMoveCost(int gridSquareInd1, int gridSquareInd2);

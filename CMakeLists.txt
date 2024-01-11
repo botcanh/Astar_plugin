@@ -208,4 +208,4 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 add_library(astar_planner src/astar_planner.cpp) 
-target_link_libraries(astar_planner ${catkin_LIBRARIES})
+#target_link_libraries(astar_planner ${catkin_LIBRARIES})
