@@ -23,9 +23,6 @@ AStarPlanner::AStarPlanner()
 {
 }
 
-/**
-  Constructor with shared node handle
-**/
 
 /**
   Constructor that initilizes costmap and other parameters
